@@ -1,0 +1,111 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image2 {
+    height: 60%;
+    position: absolute;
+    top: 55%;
+    left: 85%;
+    transform: translate(-85%, -55%);
+}
+.image3 {
+    height: 60%;
+    position: absolute;
+    top: 55%;
+    left: 85%;
+    transform: translate(-85%, -55%);
+}
+.image4 {
+    height: 65%;
+    position: absolute;
+    top: 55%;
+    left: 85%;
+    transform: translate(-85%, -55%);
+}
+
+.s1{
+    background-image: url(./img/homeimg.png);
+    background-size: cover;
+}
+
+
+.section h1 {
+    text-transform: capitalize;
+    font-size: 60px;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    background: linear-gradient(to left,  #4d6b5c, #0c1728);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.s2 {
+    background: linear-gradient(to left, rgb(46, 122, 112), #bebbb7);
+}
+
+.s2 h1 {
+    text-transform: capitalize;
+    font-size: 48px;
+    background: linear-gradient(to left, #d3d87d, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.s3 {
+    background: linear-gradient(to left, #46ad7a, rgb(127, 41, 161));
+}
+
+.s3 h1 {
+    text-transform: capitalize;
+    font-size: 48px;
+    background: linear-gradient(to left, #8cc787, #5bd1cb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.s4 {
+    background: linear-gradient(to left, rgb(75, 180, 177), rgb(233, 184, 184));
+}
+
+.s4 h1 {
+    text-transform: capitalize;
+    font-size: 48px;
+    background: linear-gradient(to left, #d0da43, #5d6435);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    margin: 20%;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+.description p {
+    margin: 20px 0px;
+
+}
+
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .section {
+        width: 95vw;
+    }
+}
+
